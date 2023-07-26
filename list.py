@@ -27,19 +27,19 @@
 
 # print (len(b))
 
-# set
-# s={"mani",123 }
-# print (s)
+set
+s={"mani",123 }
+print (s)
 
 # s.add(756)
 # print (s)
  
-# l=[45678,"boo boo"] 
-# s.update(l)
-# print (s)
+l=[45678,"boo boo"] 
+s.update(l)
+print (s)
 
-# s.discard("mani")
-# print (s)
+s.discard("mani")
+print (s)
 
 #dictionary
 
@@ -93,6 +93,6 @@
 
   
 
-a = 2.5
-print(str(a))
-    #min /max 
+# a = 2.5
+# print(str(a))
+#     #min /max 
