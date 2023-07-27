@@ -54,6 +54,12 @@
 # cars = ['Ford', 'BMW', 'Volvo']
 # fruits.extend(cars)
 # print (fruits)
+#exdentes example
+# name=input("your name")
+# age=input("enter your age")
+# DOB = input("enter a date")
+# userlist=[]
+# userlist.extend([name,age,DOB])
 
 # set
 # s={"mani",123 }
@@ -80,6 +86,22 @@
 # print(o)
 # o['study']=3
 # print (o)
+
+#condition statement
+# #if
+# name =input("enter your name")
+# age =int(input("enter your age"))
+
+# if age > 18:    
+
+#     print ("hello",name,"license is approved")
+
+# elif age==18:
+#     print ("hello",name,"your are waiting list")
+
+# else :
+#     print ("hello",name,"not approved")
+
 
 
 
