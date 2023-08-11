@@ -3,6 +3,8 @@
 # str
 # float
 # list
+# tuples
+# set
 # dictionary
 # boolean "true","fals"
 
@@ -57,9 +59,9 @@
 #exdentes example
 # name=input("your name")
 # age=input("enter your age")
-# DOB = input("enter a date")
+# dob = input("enter a  date")
 # userlist=[]
-# userlist.extend([name,age,DOB])
+# userlist.extend([name,age,dob])
 
 # set
 # s={"mani",123 }
@@ -73,35 +75,95 @@
 # print (s)
 
 #dictionary
-# boolean "true","fals"
+
 # o={'id':35,'name':'mani','dep':'it'}
 # print(o)
 # print (o['id'])
 # print (o.items())
 # print (o.keys())
 # print (o.values())
-# o.popitem()
-# print (o)
 # o.pop('id')
 # print(o)
-# o['study']=3
+# o['study']="bca"
 # print (o)
 
 #condition statement
+# boolean "true","fals"
 # #if
 # name =input("enter your name")
 # age =int(input("enter your age"))
 
-# if age > 18:    
-
+# if age > 18:
 #     print ("hello",name,"license is approved")
 
 # elif age==18:
 #     print ("hello",name,"your are waiting list")
 
+
 # else :
 #     print ("hello",name,"not approved")
 
+# looping counting loop
+# 1 for loop
+# for i in range(0,10,3): #range (initial,final,step) i in counting auto increase
+#     print(i)
+# n = 20
+# for i in range (1,n+1):
+#     print (i)
+
+#while loop  this loop in the condition satisfied of continues looping
+# i=1
+# while i<10:
+#     print(i) #the line of run infinity loop
+#     i = i+1 #manualy increace a counting
+
+#jumping statement
+#continue
+# for i in range(0,10):
+#     if i==6:
+#         continue
+#     print(i)
+# #break
+# for i in range(0,10):
+#     if i==4+1:
+#         break
+#     print(i)
+
+# print("hello jii")                               
+
+# using loop inside of else
+# for i in range(0,10):
+#     if i==4+1:
+#         # continue
+#         break
+#     print(i)
+# else:
+#     print("hello jii")
+# i=1
+# while i<10:
+#     print(i) #the line of run infinity loop
+#     i = i+1 #manualy increace a counting
+    
+# else:
+#     print("hello paul")
+
+# for letter in 'geeksforgeeks':
+ 
+#     # break the loop as soon it sees 'e'
+#     # or 's'
+#     if letter == 'e' or letter == 's':
+#         break
+ 
+# print('Current Letter :', letter)
+
+
+# An empty loop
+for letter in 'geeksforgeeks':
+	if letter=="e":
+		pass
+	
+	
+print('Last Letter :', letter)
 
 
 

@@ -27,26 +27,29 @@
 
 # print (len(b))
 
-set
-s={"mani",123 }
-print (s)
+# set
+# s={"mani",123 }
+# print (type(s))
 
 # s.add(756)
 # print (s)
  
-l=[45678,"boo boo"] 
-s.update(l)
-print (s)
+# l=[45678,"boo boo"] 
+# s.update(l)
+# print (s)
 
-s.discard("mani")
-print (s)
+# s.discard("mani")
+# print (s)
 
 #dictionary
 
 # o={'id':35,'name':'mani','dep':'it'}
+# print(type(o))
+# print (o)
 # print (o['id'])
-
 # print (o.items())
+# # o.items()
+# # print(o)
 # print (o.keys())
 # print (o.values())
 

@@ -1,16 +1,16 @@
 # voter ID
 
-# name= input("enter  your name")
-# age = int(input("enter your age"))
+name= input("enter  your name")
+age = int(input("enter your age"))
 
-# if age >  18:
-#     print("wellcom",name,"your selected")
+if age >  18:
+    print("wellcom",name,"your selected")
 
-# elif age ==18:
-#     print("wellcom",name,"your waiting")
+elif age ==18:
+    print("wellcom",name,"your waiting")
 
-# else :
-#     print(name,"your rejected")    
+else :
+    print(name,"your rejected")    
 
 # odd or even
 
@@ -61,21 +61,21 @@
 
 # calculate
 
-num1 = int(input("enter a number"))
-num2 = int(input("enter a number"))
-math = str(input("enter a operaters"))
+# num1 = int(input("enter a number"))
+# num2 = int(input("enter a number"))
+# math = str(input("enter a operaters"))
 
-if math =="+":
-    print(num1,"your answer",num1+num2)
+# if math =="+":
+#     print(num1,"your answer",num1+num2)
 
-elif math=="-":
-    print("your answer",num1-num2)
-elif math=="*":
-    print("your answer",num1*num2)
-elif math=="%":
-    print("your answer",num1%num2)
+# elif math=="-":
+#     print("your answer",num1-num2)
+# elif math=="*":
+#     print("your answer",num1*num2)
+# elif math=="%":
+#     print("your answer",num1%num2)
 
-else :
-    print(" isnt your answer")
+# else :
+#     print(" isnt your answer")
     
     
